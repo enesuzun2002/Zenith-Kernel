@@ -58,14 +58,12 @@ build_kernel.sh
 env_setup.sh
 arch/arm64/crypto/sha256-core.S
 arch/arm64/crypto/sha512-core.S
-output/
-scripts/dtbTool/
 drivers/gpu/arm/mali400/ump/arch
 security/selinux_n/flask.h
 security/selinux_n/av_permissions.h
 fips_fmp_utils
 drivers/gpu/arm/mali400/ump/arch
-<<<<<<< HEAD
-=======
 
->>>>>>> 3f1b5455d4773... my config
+# Zenith
+build/*.zip
+build.log
