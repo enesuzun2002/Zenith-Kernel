@@ -118,7 +118,7 @@ static u8 led_lowpower_mode = 0x0;
 
 unsigned int octa_color = 0x0;
 
-static unsigned int led_enable_fade;
+static unsigned int led_enable_fade = 1;
 static unsigned int led_fade_time_up = 800;
 static unsigned int led_fade_time_down = 800;
 
