@@ -169,10 +169,10 @@ read -p "Select an option to compile the kernel " prompt
 
 
 if [ $prompt == "1" ]; then
-    MODEL=G920
+    MODEL=G92X
     DEVICE=$S6DEVICE
     KERNEL_DEFCONFIG=$DEFCONFIG_S6FLAT
-    echo "S6 Flat G920F Selected"
+    echo "G92X Selected"
     ZIP_NAME="${K_NAME}-${MODEL}-N-$(date +%Y-%m-%d).zip"
     MAIN
 elif [ $prompt == "2" ]; then

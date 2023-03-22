@@ -67,3 +67,8 @@ drivers/gpu/arm/mali400/ump/arch
 # Zenith
 build/*.zip
 build.log
+net/wireguard/crypto/zinc/chacha20/chacha20-arm64.S
+net/wireguard/crypto/zinc/poly1305/poly1305-arm64.S
+arch/arm64/boot/dtb/*
+build/ak3/Image
+build/ak3/dt.img
