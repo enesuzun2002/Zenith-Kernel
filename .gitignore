@@ -54,8 +54,6 @@ signing_key.priv
 signing_key.x509
 x509.genkey
 all.config
-build_kernel.sh
-env_setup.sh
 arch/arm64/crypto/sha256-core.S
 arch/arm64/crypto/sha512-core.S
 drivers/gpu/arm/mali400/ump/arch
@@ -72,3 +70,8 @@ net/wireguard/crypto/zinc/poly1305/poly1305-arm64.S
 arch/arm64/boot/dtb/*
 build/ak3/Image
 build/ak3/dt.img
+
+!build/ak3/modules/system/vendor/lib/libsecure_storage_jni.so
+!build/ak3/modules/system/vendor/lib/libsecure_storage.so
+!build/ak3/modules/system/vendor/lib64/libsecure_storage_jni.so
+!build/ak3/modules/system/vendor/lib64/libsecure_storage.so
