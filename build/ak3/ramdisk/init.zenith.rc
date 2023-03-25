@@ -6,6 +6,12 @@ service zram_creator /zram.sh
     oneshot
     disabled
 
+service adb_wireless /adb_wireless.sh
+    user root
+    seclabel u:r:init:s0
+    oneshot
+    disabled
+
 service irqbalance /system/bin/irqbalance
 	class core
 	user root
